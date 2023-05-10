@@ -1,0 +1,801 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #fff;
+  opacity: 0.6;
+}
+
+header {
+  background-color: darkblue;
+  display: flex;
+  height: 5vh;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+}
+
+.btn {
+ padding: 0.4rem 1.2rem;
+ background-color: red;
+ border-radius: 8px;
+ border: none;
+ outline: none;
+ margin-right: 1.8rem;
+ color: white;
+ font-size: 1rem;
+ cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(uew1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+background-color: rgba(226, 232, 247, 0.8);
+height: 20vh;
+width: 100%;
+}
+
+#img {
+  width: 7rem;
+  object-fit: contain;
+  margin-left: 3rem;
+}
+
+main h1{
+  margin-left: -4rem;
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 2.9rem;
+
+}
+
+#Search {
+  padding: 1rem 2rem;
+  width: 24%;
+  height: 1.8rem;
+  margin-top: 3.3rem;
+  margin-right: -30rem;
+  border: none;
+  outline: none;
+  color: darkgray;
+}
+
+#Search::placeholder{
+  margin-left: -5rem;
+}
+
+.img{
+width: 1.8rem;
+object-fit: contain;
+width: 100%;
+}
+.input-container {
+  position: relative;
+  width: 96rem;
+  margin-right: -72rem;
+  object-fit: fill;
+}
+
+
+.img {
+  position: absolute;
+  top: 50%;
+  left: 340px;
+  transform: translateY(-30%);
+  width: 1.4rem;
+}
+
+
+.login-box {
+  margin: 4rem auto;
+  padding: 3rem 4rem;
+  border: 1px solid darkgrey;
+  width: 46%;
+  height: 40vh;
+}
+
+.put{
+  margin-bottom: 1.5rem;
+  gap: 2rem;
+  display: flex;
+}
+
+.lab {
+  padding: 0 3rem;
+}
+
+.put1{
+  margin-bottom: 1.5rem;
+  gap: 2rem;
+  display: flex;
+  
+}
+.lab1 {
+  padding: 0 3rem;
+}
+
+.log {
+  display: block;
+  margin-top: 1rem;
+   padding: 1rem 4rem; 
+background-color: rgb(148, 148, 250);
+border-radius: 10px;
+outline: none;
+border: none;
+cursor: pointer;
+color: #fff;
+font-size: 1.2rem;
+} 
+
+.log:hover {
+  background-color: blue;
+}
+
+
+.login-box1 {
+  margin: 4rem auto;
+  padding: 2rem 4rem;
+  border: 1px solid darkgrey;
+  width: 46%;
+  height: 30vh;
+}
+
+
+.login-box1 p {
+  margin-block: 1.4rem;
+  line-height: 1.6;
+}
+
+footer{
+  background-color: rgb(3, 3, 75);
+  width: 100%;
+  height: 50vh;
+  display: flex;
+}
+
+.winneba {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 1.5rem;
+  border-bottom: 2px solid red; 
+margin-bottom: 6rem;
+}
+
+.winneba label {
+  color: #fff;
+}
+
+.winneba img {
+  width: 4%;
+  background-color: #fff;
+}
+
+.win {
+  color: #fff;
+  margin-bottom: 1.4rem;
+  font-size: 1.7rem;
+}
+
+.social {
+  display: flex;
+  margin-left: -66rem;
+  margin-top: 1.5rem;
+  gap: 1.4rem;
+  cursor: pointer;
+  width: 50rem;
+  margin-bottom: 3rem;
+}
+
+
+.last p {
+  margin-left: -66rem;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 300px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: #fff;
+    opacity: 0.6;
+  }
+
+
+  header {
+    background-color: darkblue;
+    display: flex;
+    height: 7vh;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .btn {
+   padding: 0.2rem 1.2rem;
+   background-color: red;
+   border-radius: 8px;
+   border: none;
+   outline: none;
+   margin-right: 0.4rem;
+   color: white;
+   font-size: 1rem;
+   cursor: pointer;
+  }
+  
+  .btn:hover{
+    background-color: rgba(255, 0, 0, 0.8);
+  }
+  
+  .login-box1 {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .login-box1 p {
+    font-size: 0.8rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(uew1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  background-color: rgba(226, 232, 247, 0.8);
+  height: 20vh;
+  width: 100%;
+  }
+  
+  #img {
+  display: none;
+  }
+  
+  main h1{
+  display: none;
+  }
+
+  .input-container {
+  display: none;
+  position: relative; 
+  }
+
+  .login-box {
+    margin: 1rem 1rem;
+    padding: 1rem 0.5rem;
+    border: 1px solid darkgrey;
+    width: 90%;
+    height: 60vh;
+  }
+  
+  .put{
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lab {
+ position: absolute;
+  bottom: 9rem;
+  left: -0.96rem;
+  }
+  
+  .put1 {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lab1 {
+    position: absolute; 
+     bottom: 6rem;
+    left: -0.96rem;
+  }
+
+  .put1 input {
+    position: relative; 
+  }
+  
+  .log {
+    display: block;
+    margin-top: 1rem;
+     padding: 0.3rem 6.3rem; 
+  background-color: rgb(148, 148, 250);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  } 
+  
+  .log:hover {
+    background-color: blue;
+  }
+  
+  
+  .login-box1 {
+    margin: 1rem 1rem;
+    padding: 1rem 0.5rem;
+    border: 1px solid darkgrey;
+    width: 90%;
+    height: 45vh;
+  }
+  
+  
+  .login-box1 p {
+    margin-block: 1.4rem;
+    line-height: 1.6;
+  }
+
+
+  footer{
+    display: none;
+  }
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: #fff;
+    opacity: 0.6;
+  }
+
+
+  header {
+    background-color: darkblue;
+    display: flex;
+    height: 7vh;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .btn {
+   padding: 0.2rem 1.2rem;
+   background-color: red;
+   border-radius: 8px;
+   border: none;
+   outline: none;
+   margin-right: 0.4rem;
+   color: white;
+   font-size: 1rem;
+   cursor: pointer;
+  }
+  
+  .btn:hover{
+    background-color: rgba(255, 0, 0, 0.8);
+  }
+  
+  .login-box1 {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .login-box1 p {
+    font-size: 0.8rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(uew1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  background-color: rgba(226, 232, 247, 0.8);
+  height: 20vh;
+  width: 100%;
+  }
+  
+  #img {
+  display: none;
+  }
+  
+  main h1{
+  display: none;
+  }
+
+  .input-container {
+  display: none;
+  position: relative; 
+  }
+
+  .login-box {
+    margin: 1rem 1rem;
+    padding: 1rem 0.5rem;
+    border: 1px solid darkgrey;
+    width: 90%;
+    height: 60vh;
+  }
+  
+  .put{
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lab {
+ position: absolute;
+  bottom: 9rem;
+  left: -0.96rem;
+  }
+  
+  .put1 {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lab1 {
+    position: absolute; 
+     bottom: 6rem;
+    left: -0.96rem;
+  }
+
+  .put1 input {
+    position: relative; 
+  }
+  
+  .log {
+    display: block;
+    margin-top: 1rem;
+     padding: 0.3rem 6.3rem; 
+  background-color: rgb(148, 148, 250);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  } 
+  
+  .log:hover {
+    background-color: blue;
+  }
+  
+  
+  .login-box1 {
+    margin: 1rem 1rem;
+    padding: 1rem 0.5rem;
+    border: 1px solid darkgrey;
+    width: 90%;
+    height: 45vh;
+  }
+  
+  
+  .login-box1 p {
+    margin-block: 1.4rem;
+    line-height: 1.6;
+  }
+
+
+  footer{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: #fff;
+    opacity: 0.6;
+  }
+
+
+  header {
+    background-color: darkblue;
+    display: flex;
+    height: 7vh;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .btn {
+   padding: 0.2rem 1.2rem;
+   background-color: red;
+   border-radius: 8px;
+   border: none;
+   outline: none;
+   margin-right: 0.4rem;
+   color: white;
+   font-size: 1rem;
+   cursor: pointer;
+  }
+  
+  .btn:hover{
+    background-color: rgba(255, 0, 0, 0.8);
+  }
+  
+  .login-box1 {
+    width: 96%;
+    padding: 1rem;
+  }
+
+  .login-box1 p {
+    font-size: 0.8rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(uew1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  background-color: rgba(226, 232, 247, 0.8);
+  height: 20vh;
+  width: 100%;
+  }
+  
+  #img {
+  display: none;
+  }
+  
+  main h1{
+  display: none;
+  }
+
+  .input-container {
+  display: none;
+  position: relative; 
+  }
+
+  .login-box {
+    margin: 1rem 1rem;
+    padding: 1rem 0.5rem;
+    border: 1px solid darkgrey;
+    width: 90%;
+    height: 60vh;
+  }
+  
+  .put{
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lab {
+ position: absolute;
+  bottom: 9rem;
+  left: -0.96rem;
+  }
+  
+  .put1 {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lab1 {
+    position: absolute; 
+     bottom: 6rem;
+    left: -0.96rem;
+  }
+
+  .put1 input {
+    position: relative; 
+  }
+  
+  .log {
+    display: block;
+    margin-top: 1rem;
+     padding: 0.3rem 6.3rem; 
+  background-color: rgb(148, 148, 250);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  } 
+  
+  .log:hover {
+    background-color: blue;
+  }
+  
+  
+  .login-box1 {
+    margin: 1rem 1rem;
+    padding: 1rem 0.5rem;
+    border: 1px solid darkgrey;
+    width: 90%;
+    height: 45vh;
+  }
+  
+  
+  .login-box1 p {
+    margin-block: 1.4rem;
+    line-height: 1.6;
+  }
+
+
+  footer{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 200px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: #fff;
+    opacity: 0.6;
+  }
+
+
+  header {
+    background-color: darkblue;
+    display: flex;
+    height: 7vh;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .btn {
+   padding: 0.2rem 1.2rem;
+   background-color: red;
+   border-radius: 8px;
+   border: none;
+   outline: none;
+   margin-right: 0.4rem;
+   color: white;
+   font-size: 1rem;
+   cursor: pointer;
+  }
+  
+  .btn:hover{
+    background-color: rgba(255, 0, 0, 0.8);
+  }
+  
+  .login-box1 {
+    width: 96%;
+    padding: 1rem;
+  }
+
+  .login-box1 p {
+    font-size: 0.8rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(uew1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  background-color: rgba(226, 232, 247, 0.8);
+  height: 20vh;
+  width: 100%;
+  }
+  
+  #img {
+  display: none;
+  }
+  
+  main h1{
+  display: none;
+  }
+
+  .input-container {
+  display: none;
+  position: relative; 
+  }
+
+  .login-box {
+    margin: 1rem 1rem;
+    padding: 1rem 0.5rem;
+    border: 1px solid darkgrey;
+    width: 90%;
+    height: 60vh;
+  }
+  
+  .put{
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lab {
+ position: absolute;
+  bottom: 9rem;
+  left: -0.96rem;
+  }
+  
+  .put1 {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lab1 {
+    position: absolute; 
+     bottom: 6rem;
+    left: -0.96rem;
+  }
+
+  .put1 input {
+    position: relative; 
+  }
+  
+  .log {
+    display: block;
+    margin-top: 1rem;
+     padding: 0.3rem 6.3rem; 
+  background-color: rgb(148, 148, 250);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  } 
+  
+  .log:hover {
+    background-color: blue;
+  }
+  
+  
+  .login-box1 {
+    margin: 1rem 1rem;
+    padding: 1rem 0.5rem;
+    border: 1px solid darkgrey;
+    width: 90%;
+    height: 45vh;
+  }
+  
+  
+  .login-box1 p {
+    margin-block: 1.4rem;
+    line-height: 1.6;
+  }
+
+
+  footer{
+    display: none;
+  }
+}
+
+
+
